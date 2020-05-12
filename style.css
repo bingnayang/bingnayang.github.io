@@ -1,0 +1,27 @@
+body{
+    background: #1F3944;
+}
+.section-title{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(100, 255, 218);
+    padding: 10px;
+}
+/* Home Page */
+.home{
+    background: linear-gradient(#1F3944, rgba(0,0,0,.4)), url("images/IMG_0735.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    padding-top: 50px;
+}
+.home-title{
+    padding: 15vh;
+    font-family: 'Righteous', cursive;
+}
+.home-title h1{
+    font-size: 5em;
+}
+.name{
+    color: rgb(100, 255, 218);
+}
