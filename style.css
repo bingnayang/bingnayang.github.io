@@ -25,3 +25,27 @@ body{
 .name{
     color: rgb(100, 255, 218);
 }
+/* About Me Page */
+.about-me-container{
+    border-style: solid;
+    padding: 45px;
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.about-me-container table{
+    color: white;
+}
+.table-borderless, .table td{
+    border-top: none !important;
+}
+.signOne{
+    color: #cc4400;
+}
+.signTwo{
+    color: #267326;
+}
+.signThree{
+    color: #006080;
+}
