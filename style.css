@@ -27,7 +27,8 @@ body{
 }
 /* About Me Page */
 .about-me-container{
-    border-style: solid;
+    border: solid;
+    border-top: 25px solid;
     padding: 45px;
     font-family: 'Overpass Mono', monospace;
     color: white;
@@ -37,15 +38,28 @@ body{
 .about-me-container table{
     color: white;
 }
-.table-borderless, .table td{
+.table-borderless,.table th,.table td{
     border-top: none !important;
 }
 .signOne{
-    color: #cc4400;
+    color: #e86868;
 }
 .signTwo{
-    color: #267326;
+    color: #5579e6;
 }
 .signThree{
-    color: #006080;
+    color: #28c7c4;
+}
+.signAt{
+    color: #db9327;
+}
+/* Project Page */
+.project-container{
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.project-container table{
+    color: white;
 }
