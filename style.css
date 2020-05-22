@@ -6,9 +6,17 @@ body{
     color: rgb(100, 255, 218);
     padding: 10px;
 }
+/* Nav Page */
+.bg-dark{
+    font-family: 'Major Mono Display', monospace;
+    background-color: #245970 !important;
+}
+.navbar-brand{
+    color: white !important;
+}
 /* Home Page */
 .home{
-    background: linear-gradient(#1F3944, rgba(0,0,0,.4)), url("images/IMG_0735.JPG");
+    background: linear-gradient(#1F3944, rgba(0,0,0,.2)), url("images/IMG_0735.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -45,7 +53,7 @@ body{
     color: #e86868;
 }
 .signTwo{
-    color: #5579e6;
+    color: #245970;
 }
 .signThree{
     color: #28c7c4;
@@ -66,4 +74,27 @@ body{
 .project-link-icon{
     color: white;
     font-size: 20px;
+}
+
+/* Contact Page */
+.contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-container{
+    padding: 50px;
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    text-align: center;
+}
+.circle-icon {
+    background: #245970;
+    padding:60px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+}
+.contact-dev p{
+    font-size: 10px;
+    padding: 15px;
 }
