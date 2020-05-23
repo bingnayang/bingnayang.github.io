@@ -7,12 +7,18 @@ body{
     padding: 10px;
 }
 /* Nav Page */
+.navbar a{
+    color: white !important;
+}
 .bg-dark{
     font-family: 'Major Mono Display', monospace;
     background-color: #245970 !important;
 }
-.navbar-brand{
-    color: white !important;
+.navbar-light .navbar-toggler{
+    border-color: aquamarine;
+}
+.navbar-collapse{
+    color:white;
 }
 /* Home Page */
 .home{
@@ -94,7 +100,10 @@ body{
     font-size: 50px;
     color: #fff;
 }
-.contact-dev p{
+.contact-dev{
     font-size: 10px;
-    padding: 15px;
+    padding: 25px;
+}
+.col-sm{
+    margin-bottom: 5px;
 }
